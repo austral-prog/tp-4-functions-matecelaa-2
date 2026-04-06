@@ -21,4 +21,3 @@ def classify_number(n):
         return "negative even"
     elif is_positive(n) == False and is_even(n) == False:
         return "negative odd"
-classify_number(2)
