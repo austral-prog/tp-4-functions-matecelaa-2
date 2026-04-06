@@ -13,11 +13,9 @@ def roots(a, b, c):
         root4 = (-1*b - root)/(2*a)
         return f"({root3}, {root4})"
 
-
 def value_y(a, b, c, x):
     equation = a*(x**2) + b*x + c
     return equation
-
 
 def to_string(a, b, c):
     if a == 0 and b == 0:
